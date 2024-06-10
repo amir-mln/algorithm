@@ -4,7 +4,7 @@ Write a function that takes a string, s, as an input and determines whether or n
 
 **Constraints**:
 
-1. 1 ≤ `len(s)`≤ 2×10<sup>5</sup>
+1. 1 ≤ `len(s)` ≤ 2×10<sup>5</sup>
 2. The string `s` will contain English uppercase and lowercase letters, digits, and spaces.
 
 **Example**
