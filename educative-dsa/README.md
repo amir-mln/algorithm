@@ -12,6 +12,6 @@ Now I better make a little bit of a disclaimer; Overall, Theses courses overlap 
 
 TODO
 
-## How to Study This Repository
+## My Study Plan
 
 TODO
