@@ -63,7 +63,7 @@ func TestAddTwoBinary(t *testing.T) {
 			for _, c := range cases {
 				res := v(c.input1, c.input2)
 				if res != c.result {
-					t.Logf("Failed test for inputs %s and %s; expected %s got %s", c.input1, c.input2, c.result, res)
+					t.Errorf("Failed test for inputs %s and %s; expected %s got %s", c.input1, c.input2, c.result, res)
 				}
 			}
 		})
