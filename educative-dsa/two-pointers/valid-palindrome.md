@@ -1,24 +1,23 @@
 # Valid Palindrome
 
-Given two binary strings `str1` and `str2`. return their sum as a binary string.
+Write a function that takes a string, s, as an input and determines whether or not it is a palindrome.
 
 **Constraints**:
 
-1. 1 <= `len(str1)`, `len(str2)` <= 500
-2. Input strings contain `0` and `1` only
-3. Any strings must not contain leading zeros except the string representing the binary form of `0`
+1. 1 ≤ `len(s)`≤ 2×10<sup>5</sup>
+2. The string `s` will contain English uppercase and lowercase letters, digits, and spaces.
 
 **Example**
 
-Inputs: `"100"` , `"111"`
-
-Output: `"1011"`
+1. Input: `"aavvbbvvaa"`
+   Output: `true`
+2. Input: `"abbcbda"`
+   Output: `false`
 
 <details>
 <summary><b>Hints & Notes</b></summary>
 
-1. We need to traverse the input strings in reverse order with help of two pointers that point at the end of each input string.
-2. We Also need variable to hold the carry value in each iteration.
-3. before returning the result, we should check if the carry has a non zero value.
+1. A palindrome is a word, phrase, or sequence of characters that reads the same backward as forward.
+2. this is a very basic two pointers problem. Iterate through the input string with two pointers pointing at the beginning and the end of the strings
 
 </details>
