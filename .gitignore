@@ -22,4 +22,4 @@ go.work
 go.work.sum
 
 # VSCode Settings 
-.vscode/settings.json
+.vscode/*.json
