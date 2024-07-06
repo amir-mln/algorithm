@@ -1,7 +1,7 @@
 package twopointers_test
 
 import (
-	twopointers "educative-dsa/1-two-pointers"
+	twopointers "educative-dsa/two-pointers"
 	"testing"
 )
 
