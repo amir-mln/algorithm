@@ -1,7 +1,7 @@
 package fastslowpointers_test
 
 import (
-	fastslowpointers "educative-dsa/2-fast-slow-pointers"
+	fastslowpointers "educative-dsa/fast-slow-pointers"
 	"testing"
 )
 
