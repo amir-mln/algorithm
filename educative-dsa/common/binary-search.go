@@ -5,10 +5,12 @@ import (
 )
 
 func BinarySearch[T cmp.Ordered](s []T, target T) (idx int, found bool) {
-	l, r := 0, len(s)-1
+	return BinarySearchIdx(s, target, 0, len(s)-1)
+}
 
+func BinarySearchIdx[T cmp.Ordered](s []T, target T, l, r int) (idx int, found bool) {
 	for l != r {
-		mid := (r - l) / 2
+		mid := l + (r-l)/2
 
 		if s[mid] < target {
 			l = mid + 1
