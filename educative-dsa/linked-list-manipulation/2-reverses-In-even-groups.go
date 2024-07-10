@@ -26,5 +26,3 @@ var ReverseInEvenGroups = map[string]func(list *common.LinkedList){
 		}
 	},
 }
-
-// 1, 2, 3, 4, 5, 6
