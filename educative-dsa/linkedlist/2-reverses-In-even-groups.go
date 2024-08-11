@@ -1,4 +1,4 @@
-package linkedlistmanipulation
+package linkedlist
 
 import (
 	"educative-dsa/common"

@@ -1,8 +1,8 @@
-package linkedlistmanipulation_test
+package linkedlist_test
 
 import (
 	"educative-dsa/common"
-	linkedlistmanipulation "educative-dsa/linked-list-manipulation"
+	"educative-dsa/linkedlist"
 	"fmt"
 	"testing"
 )
@@ -50,7 +50,7 @@ func TestReverseInEvenGroups(t *testing.T) {
 		},
 	}
 
-	for k, f := range linkedlistmanipulation.ReverseInEvenGroups {
+	for k, f := range linkedlist.ReverseInEvenGroups {
 		t.Run(k, func(t *testing.T) {
 			for _, c := range cases {
 				l := &common.LinkedList{}

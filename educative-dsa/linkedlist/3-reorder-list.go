@@ -1,4 +1,4 @@
-package linkedlistmanipulation
+package linkedlist
 
 import (
 	"educative-dsa/common"
@@ -29,7 +29,3 @@ var ReorderList = map[string]func(list *common.LinkedList){
 		}
 	},
 }
-
-// 0 11 -22 -12 21
-// 0 -22 -12 21
-// 0 11 -22 -12 21

@@ -1,8 +1,8 @@
-package linkedlistmanipulation_test
+package linkedlist_test
 
 import (
 	"educative-dsa/common"
-	linkedlistmanipulation "educative-dsa/linked-list-manipulation"
+	"educative-dsa/linkedlist"
 	"fmt"
 	"testing"
 )
@@ -60,7 +60,7 @@ func TestReorderList(t *testing.T) {
 		},
 	}
 
-	for k, f := range linkedlistmanipulation.ReorderList {
+	for k, f := range linkedlist.ReorderList {
 		t.Run(k, func(t *testing.T) {
 			for _, c := range cases {
 				l := &common.LinkedList{}
