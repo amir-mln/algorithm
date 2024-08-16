@@ -1,0 +1,72 @@
+[
+    {
+        "name": "test case 1",
+        "input": "{}[]{}[{}])",
+        "output": false
+    },
+    {
+        "name": "test case 2",
+        "input": "(){[{()}]}",
+        "output": true
+    },
+    {
+        "name": "test case 3",
+        "input": "(((((",
+        "output": false
+    },
+    {
+        "name": "test case 4",
+        "input": "{{()}",
+        "output": false
+    },
+    {
+        "name": "test case 5",
+        "input": "{()}}",
+        "output": false
+    },
+    {
+        "name": "test case 6",
+        "input": ")))))",
+        "output": false
+    },
+    {
+        "name": "test case 7",
+        "input": "[{([([([",
+        "output": false
+    },
+    {
+        "name": "test case 8",
+        "input": "})])]})",
+        "output": false
+    },
+    {
+        "name": "test case 9",
+        "input": "{}",
+        "output": true
+    },
+    {
+        "name": "test case 10",
+        "input": "[][][]]",
+        "output": false
+    },
+    {
+        "name": "test case 11",
+        "input": "[{([([([]])])}]",
+        "output": false
+    },
+    {
+        "name": "test case 12",
+        "input": "})])]})({[([({",
+        "output": false
+    },
+    {
+        "name": "test case 13",
+        "input": "}{",
+        "output": false
+    },
+    {
+        "name": "test case 14",
+        "input": "(){}[]",
+        "output": true
+    }
+]
