@@ -56,8 +56,8 @@ func p21StackSolution(tokens []string, _ *int) int {
 		token := tokens[i]
 
 		if op, ok := p21Operators[token]; ok {
-			n2 := s.Pop()
-			n1 := s.Pop()
+			n2, _ := s.Pop()
+			n1, _ := s.Pop()
 			s.Push(op(n1, n2))
 			continue
 		}

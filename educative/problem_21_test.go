@@ -16,7 +16,7 @@ func TestReversePolishNotation(t *testing.T) {
 		Expected int
 	}
 
-	f, err := os.Open("21_reverse_polish_notation.json")
+	f, err := os.Open("problem_21.json")
 	if err != nil {
 		panic(err)
 	}

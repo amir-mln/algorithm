@@ -1,0 +1,58 @@
+[
+    {
+        "name": "test case 1",
+        "input": "g",
+        "output": "g"
+    },
+    {
+        "name": "test case 2",
+        "input": "ggaabcdeb",
+        "output": "bcdeb"
+    },
+    {
+        "name": "test case 3",
+        "input": "abbddaccaaabcd",
+        "output": "abcd"
+    },
+    {
+        "name": "test case 4",
+        "input": "aabbccdd",
+        "output": ""
+    },
+    {
+        "name": "test case 5",
+        "input": "aannkwwwkkkwna",
+        "output": "kwkwna"
+    },
+
+    {
+        "name": "test case 6",
+        "input": "abbabccblkklu",
+        "output": "u"
+    },
+    {
+        "name": "test case 7",
+        "input": "ttltlltlhiijhkk",
+        "output": "hjh"
+    },
+    {
+        "name": "test case 8",
+        "input": "aaaaaaaaaa",
+        "output": ""
+    },
+    {
+        "name": "test case 9",
+        "input": "bbb",
+        "output": "b"
+    },
+    {
+        "name": "test case 10",
+        "input": "abcba",
+        "output": "abcba"
+    },
+    {
+        "name": "test case 11",
+        "input": "abccba",
+        "output": ""
+    }
+]
