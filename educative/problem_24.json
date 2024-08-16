@@ -1,0 +1,52 @@
+[
+    {
+        "name": "test case 1",
+        "input": "()",
+        "output": "()"
+    },
+    {
+        "name": "test case 2",
+        "input": "(",
+        "output": ""
+    },
+    {
+        "name": "test case 3",
+        "input": ")",
+        "output": ""
+    },
+    {
+        "name": "test case 4",
+        "input": ")(",
+        "output": ""
+    },
+    {
+        "name": "test case 5",
+        "input": "ab)ca(so)(sc(s)(",
+        "output": "abca(so)sc(s)"
+    },
+    {
+        "name": "test case 6",
+        "input": ")))((((",
+        "output": ""
+    },
+    {
+        "name": "test case 7",
+        "input": "abc",
+        "output": "abc"
+    },
+    {
+        "name": "test case 8",
+        "input": ")((xyz)())",
+        "output": "((xyz)())"
+    },
+    {
+        "name": "test case 9",
+        "input": "()()()()()",
+        "output": "()()()()()"
+    },
+    {
+        "name": "test case 10",
+        "input": "((((a(b(c))))))",
+        "output": "((((a(b(c))))))"
+    }
+]
