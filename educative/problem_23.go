@@ -8,7 +8,7 @@ import (
 Valid Parentheses
 
 Given a string that may consist of opening and closing parentheses, your task is to
-check whether or not the string contains valid parenthesis. Every opening parenthesis
+check whether or not the string contains valid parentheses. Every opening parenthesis
 should be closed by the same kind of parenthesis. Therefore, '{)' and '[(])' strings
 are invalid. Every opening parenthesis must be closed in the correct order. Therefore,
 ')(' and '()(()' are invalid.

@@ -5,11 +5,13 @@ import (
 )
 
 /*
-Valid Parentheses
+Minimum Parentheses to Remove
 
-Given a string, s, that may have matched and unmatched parentheses, remove the minimum
-number of parentheses so that the resulting string contains valid parenthesis. For example,
-the string “a(b)” contains valid parenthesis while the string “a(b” doesn’t.
+Given a string, s, that may have matched and unmatched parentheses, remove
+the minimum number of parentheses so that the resulting string contains valid
+sequence of parentheses. For example, the string “a(b)” is a valid string while
+the string “a(b” isn’t, since the opening parenthesis doesn’t have any corresponding
+closing parenthesis.
 
 Constraints:
 
