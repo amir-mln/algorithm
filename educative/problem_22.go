@@ -21,7 +21,7 @@ var P22Solutions = map[string]func(string) string{
 		st := datastructure.Stack[rune]{}
 
 		for _, ch := range s {
-			if st.Top() == ch {
+			if topCh, _ := st.Top(); topCh == ch {
 				st.Pop()
 				continue
 			}

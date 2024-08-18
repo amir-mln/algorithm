@@ -29,7 +29,7 @@ var P23Solutions = map[string]func(string) bool{
 
 		for _, ch := range s {
 			if open, ok := closings[ch]; ok {
-				if st.Top() != open {
+				if topCh, _ := st.Top(); topCh != open {
 					return false
 				}
 

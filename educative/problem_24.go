@@ -26,7 +26,7 @@ var P24Solutions = map[string]func(string) string{
 
 		for _, ch := range s {
 			if ch == close {
-				if st.Top() != open {
+				if topCh, _ := st.Top(); topCh != open {
 					continue
 				}
 
@@ -51,7 +51,7 @@ var P24Solutions = map[string]func(string) string{
 			}
 
 			if ch == open {
-				if st.Top() != close {
+				if topCh, _ := st.Top(); topCh != close {
 					continue
 				}
 

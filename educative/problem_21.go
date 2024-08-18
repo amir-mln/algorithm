@@ -66,7 +66,8 @@ func p21StackSolution(tokens []string, _ *int) int {
 		s.Push(num)
 	}
 
-	return s.Top()
+	res, _ := s.Top()
+	return res
 }
 
 /*

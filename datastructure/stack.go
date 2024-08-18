@@ -31,13 +31,13 @@ func (s *Stack[T]) Pop() (T, bool) {
 }
 
 // The top value of the stack i.e. the value of the last
-func (s *Stack[T]) Top() T {
+func (s *Stack[T]) Top() (T, bool) {
 	if s.Empty() {
 		var def T
-		return def
+		return def, false
 	}
 
-	return s.slice[s.size-1]
+	return s.slice[s.size-1], true
 }
 
 // Returns true if the stack is empty
