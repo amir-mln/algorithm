@@ -1,6 +1,10 @@
 package educative
 
-import "math"
+import (
+	"math"
+
+	"github.com/amir-mln/algorithm/datastructure"
+)
 
 /*
 Largest Rectangle in Histogram
@@ -28,7 +32,33 @@ var P25Solutions = map[string]func([]int) int{
 
 		return area
 	},
-	// "stacks-solution": func(nums []int) int {
-	// 	return 0
-	// },
+	"stacks": func(heights []int) int {
+		stck := datastructure.Stack[int]{}
+		area := 0
+
+		for i, h := range heights {
+			for top, ok := stck.Top(); ok && heights[top] >= h; top, ok = stck.Top() {
+				stck.Pop()
+				leftIdx, okay := stck.Top()
+				if !okay {
+					leftIdx = -1
+				}
+
+				area = max(area, heights[top]*(i-leftIdx-1))
+			}
+
+			stck.Push(i)
+		}
+
+		for top, ok := stck.Pop(); ok; top, ok = stck.Pop() {
+			leftIdx, okay := stck.Top()
+			if !okay {
+				leftIdx = -1
+			}
+
+			area = max(area, heights[top]*(len(heights)-leftIdx-1))
+		}
+
+		return area
+	},
 }
