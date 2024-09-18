@@ -9,7 +9,6 @@ import (
 )
 
 func TestReversePolishNotation(t *testing.T) {
-	t.Log("Testing", "Reverse Polish Notation")
 	var cases []struct {
 		Name     string
 		Tokens   []string

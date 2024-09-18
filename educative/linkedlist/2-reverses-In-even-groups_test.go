@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/amir-mln/algorithm/educative/common"
+	"github.com/amir-mln/algorithm/datastructure"
 	"github.com/amir-mln/algorithm/educative/linkedlist"
 )
 
@@ -54,7 +54,7 @@ func TestReverseInEvenGroups(t *testing.T) {
 	for k, f := range linkedlist.ReverseInEvenGroups {
 		t.Run(k, func(t *testing.T) {
 			for _, c := range cases {
-				l := &common.LinkedList{}
+				l := &datastructure.LinkedList{}
 				l.InsertFromList(c.list)
 				f(l)
 

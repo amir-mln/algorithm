@@ -1,11 +1,11 @@
 package linkedlist
 
 import (
-	"github.com/amir-mln/algorithm/educative/common"
+	"github.com/amir-mln/algorithm/datastructure"
 )
 
-var ReorderList = map[string]func(list *common.LinkedList){
-	"linear-solution": func(list *common.LinkedList) {
+var ReorderList = map[string]func(list *datastructure.LinkedList){
+	"linear-solution": func(list *datastructure.LinkedList) {
 		p1, p2 := list.Head, list.Head
 
 		for p1.Next != nil {
