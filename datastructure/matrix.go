@@ -7,7 +7,7 @@ import (
 
 type Matrix[T comparable] [][]T
 
-func NewMatrix[T comparable](rows, cols uint) *Matrix[T] {
+func NewMatrix[T comparable](rows, cols int) *Matrix[T] {
 	mtx := Matrix[T](make([][]T, rows))
 
 	for i := 0; i < int(rows); i++ {
@@ -40,4 +40,14 @@ func (mtx Matrix[T]) String() string {
 
 	s += "]"
 	return s
+}
+
+func (mtx Matrix[T]) Copy() Matrix[T] {
+	cp := NewMatrix[T](len(mtx), len(mtx[0]))
+
+	for i, row := range mtx {
+		copy((*cp)[i], row)
+	}
+
+	return *cp
 }
