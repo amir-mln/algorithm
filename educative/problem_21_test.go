@@ -8,7 +8,7 @@ import (
 	"github.com/amir-mln/algorithm/educative"
 )
 
-func TestReversePolishNotation(t *testing.T) {
+func TestProblem21(t *testing.T) {
 	var cases []struct {
 		Name     string
 		Tokens   []string
@@ -26,7 +26,7 @@ func TestReversePolishNotation(t *testing.T) {
 		panic(err)
 	}
 
-	for title, solution := range educative.P21Solutions {
+	for title, solution := range educative.Problem21 {
 		for _, c := range cases {
 			i := len(c.Tokens) - 1
 			res := solution(c.Tokens, &i)

@@ -17,7 +17,7 @@ Constraints:
 	a) 1 ≤ len(heights) ≤ 10**3
 	b) 0 ≤ heights[i] ≤ 10**4
 */
-var P25Solutions = map[string]func([]int) int{
+var Problem25 = map[string]func([]int) int{
 	"nested-loop": func(heights []int) int {
 		area := 0
 

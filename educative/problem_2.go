@@ -2,9 +2,8 @@ package educative
 
 import "math"
 
-// TODO: Two Pointers...
-
 /*
+String to Integer
 #Two_Pointers
 
 Write a function that converts a string to a 32–bit signed integer. It is equivalent to the
@@ -28,7 +27,7 @@ Constraints:
  3. The string s may have Non-digit characters, including lower-case and upper-case English letters,
     space character ' ', period ., and sign characters + and -.
 */
-var StringAtoi = map[string]func(s string) int32{
+var Problem2 = map[string]func(s string) int32{
 	"linear-solution": func(s string) int32 {
 		var res int64
 		f, l := -1, -1

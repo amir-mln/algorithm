@@ -8,14 +8,14 @@ import (
 	"github.com/amir-mln/algorithm/educative"
 )
 
-func TestAddTwoBinary(t *testing.T) {
+func TestProblem1(t *testing.T) {
 	cases := []struct {
 		Input1 string
 		Input2 string
 		Result string
 	}{}
 
-	f, err := os.Open("problem_21.json")
+	f, err := os.Open("problem_1.json")
 	if err != nil {
 		panic(err)
 	}
@@ -26,12 +26,13 @@ func TestAddTwoBinary(t *testing.T) {
 		panic(err)
 	}
 
-	for k, v := range educative.AddBinary {
+	for k, v := range educative.Problem1 {
 		t.Run(k, func(t *testing.T) {
 			for _, c := range cases {
+
 				res := v(c.Input1, c.Input2)
 				if res != c.Result {
-					t.Errorf("Failed test for inputs %s and %s; expected %s got %s", c.Input1, c.Input2, c.Result, res)
+					t.Errorf("for inputs %s and %s; expected %s got %s", c.Input1, c.Input2, c.Result, res)
 				}
 			}
 		})

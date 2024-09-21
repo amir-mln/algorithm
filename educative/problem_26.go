@@ -12,7 +12,7 @@ Given a matrix, `mtx`, if any element within the matrix is zero, set that row an
 	a) 1 ≤ len(mtx), len(mtx[i]) ≤ 20
 	b) -2**31 ≤ mtx[i][j] ≤ 2**31 - 1
 */
-var P26Solutions = map[string]func(mtx datastructure.Matrix[int]){
+var Problem26 = map[string]func(mtx datastructure.Matrix[int]){
 	"hash-map": func(mtx datastructure.Matrix[int]) {
 		rows := make(map[int]struct{})
 		cols := make(map[int]struct{})

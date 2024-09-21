@@ -15,7 +15,7 @@ is modified directly without allocating another matrix.
 	b) 1 ≤ len(matrix) ≤ 20
 	c) -2**31 ≤ mtx[i][j] ≤ 2**31 - 1
 */
-var P27Solutions = map[string]func(mtx datastructure.Matrix[int]){
+var Problem27 = map[string]func(mtx datastructure.Matrix[int]){
 	"loops": func(mtx datastructure.Matrix[int]) {
 		top, left, right, bottom := 0, 0, len(mtx)-1, len(mtx)-1
 

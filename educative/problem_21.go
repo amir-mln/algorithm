@@ -85,7 +85,7 @@ Constraints:
 	b) 'tokens'[i] is either an operator (+, -, *, or /) or an integer
 		in the range [−200,200]
 */
-var P21Solutions = map[string]func(tokens []string, index *int) int{
+var Problem21 = map[string]func(tokens []string, index *int) int{
 	"recursive-solution": p21RecursiveSolution,
 	"stack-solution":     p21StackSolution,
 }

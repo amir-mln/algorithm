@@ -26,7 +26,7 @@ func TestProblem25(t *testing.T) {
 		panic(err)
 	}
 
-	for title, solution := range educative.P25Solutions {
+	for title, solution := range educative.Problem25 {
 		for _, c := range cases {
 			res := solution(c.Input)
 

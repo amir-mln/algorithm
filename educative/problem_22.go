@@ -16,7 +16,7 @@ Constraints:
 	a) 1 ≤ len(input) ≤ 10**3
 	b) input consists of lowercase English alphabets.
 */
-var P22Solutions = map[string]func(string) string{
+var Problem22 = map[string]func(string) string{
 	"stacks-solution": func(s string) string {
 		st := datastructure.Stack[rune]{}
 

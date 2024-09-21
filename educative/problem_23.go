@@ -18,7 +18,7 @@ Constraints:
 	a) 1 ≤ len(input) ≤ 10**3
 	b) input consists of following characters only: '(', ')', '[', ']', '{' and '}'.
 */
-var P23Solutions = map[string]func(string) bool{
+var Problem23 = map[string]func(string) bool{
 	"stacks-solution": func(s string) bool {
 		st := datastructure.Stack[rune]{}
 		closings := map[rune]rune{

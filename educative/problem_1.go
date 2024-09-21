@@ -16,7 +16,7 @@ Constraints:
 
 Category: Two Pointers
 */
-var AddBinary = map[string]func(str1, str2 string) string{
+var Problem1 = map[string]func(str1, str2 string) string{
 	"linear-solution": func(str1, str2 string) string {
 		p1, p2 := len(str1)-1, len(str2)-1
 		carry := 0
