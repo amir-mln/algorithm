@@ -1,0 +1,50 @@
+[
+    {
+        "name": "test case 1",
+        "nums1": [2, 4],
+        "nums2": [1, 2, 3, 4],
+        "output": [3, -1]
+    },
+    {
+        "name": "test case 2",
+        "nums1": [1, 3],
+        "nums2": [1, 2, 3, 4],
+        "output": [2, 4]
+    },
+    {
+        "name": "test case 3",
+        "nums1": [1, 10],
+        "nums2": [1, 3, 5, 10],
+        "output": [3, -1]
+    },
+    {
+        "name": "test case 4",
+        "nums1": [15, 13],
+        "nums2": [10, 12, 13, 15, 9],
+        "output": [-1, 15]
+    },
+    {
+        "name": "test case 5",
+        "nums1": [19, 4],
+        "nums2": [4, 15, 97, 19],
+        "output": [-1, 15]
+    },
+    {
+        "name": "test case 6",
+        "nums1": [0],
+        "nums2": [0],
+        "output": [-1]
+    },
+    {
+        "name": "test case 7",
+        "nums1": [4, 1, 2],
+        "nums2": [1, 3, 4, 2],
+        "output": [-1, 3, -1]
+    },
+    {
+        "name": "test case 8",
+        "nums1": [11, 15],
+        "nums2": [9, 6, 7, 11, 13, 15],
+        "output": [13, -1]
+    }
+]
