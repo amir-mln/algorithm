@@ -3,25 +3,17 @@ package exercises
 import "github.com/amir-mln/algorithm/datastructure"
 
 /*
-Title:
+# Remove Nth Node from End of List
 
-	Remove nth Node from End of List
-
-Tags:
-
-	#Two_Pointers
-
-Description:
-
-	Given a singly linked list, remove the Nth node from the end
-	of the list and return its head.
+Given a singly linked list, remove the Nth node from the end
+of the list and return its head.
 
 Constraints:
 
-	a) The number of nodes in the list is k.
-	b) 1 ≤ `k` ≤ 10**3
-	c) -10**3 ≤ Node.Value ≤ 10**3
-	d) 1 ≤ `n` ≤ `k`
+ 1. The number of nodes in the list is k.
+ 2. 1 ≤ k ≤ 10**3
+ 3. -10**3 ≤ Node.Value ≤ 10**3
+ 4. 1 ≤ n ≤ k
 */
 var Problem4 = map[string]func(l *datastructure.LinkedList, n int){
 	"two-pointer": func(l *datastructure.LinkedList, n int) {

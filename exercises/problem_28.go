@@ -5,15 +5,15 @@ import (
 )
 
 /*
-Spiral Matrix
-#Matrices
+# Spiral Matrix
 
 Given an n×n matrix, return an array containing the matrix
 elements in spiral order, starting from the top-left cell.
 
-	a) len(matrix) == len(mtx[i])
-	b) 1 ≤ len(matrix) ≤ 10
-	c) -100 ≤ mtx[i][j] ≤ 100
+Constraints:
+ 1. len(matrix) == len(mtx[i])
+ 2. 1 ≤ len(matrix) ≤ 10
+ 3. -100 ≤ mtx[i][j] ≤ 100
 */
 var Problem28 = map[string]func(mtx datastructure.Matrix[int]) []int{
 	"linear-time": func(mtx datastructure.Matrix[int]) []int {

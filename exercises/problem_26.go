@@ -5,12 +5,13 @@ import (
 )
 
 /*
-Set Matrix Zeros
+# Set Matrix Zeros
 
 Given a matrix, `mtx`, if any element within the matrix is zero, set that row and column to zero.
 
-	a) 1 ≤ len(mtx), len(mtx[i]) ≤ 20
-	b) -2**31 ≤ mtx[i][j] ≤ 2**31 - 1
+Constraints:
+ 1. 1 ≤ len(mtx), len(mtx[i]) ≤ 20
+ 2. -2**31 ≤ mtx[i][j] ≤ 2**31 - 1
 */
 var Problem26 = map[string]func(mtx datastructure.Matrix[int]){
 	"hash-map": func(mtx datastructure.Matrix[int]) {

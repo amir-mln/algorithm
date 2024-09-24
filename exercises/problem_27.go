@@ -5,15 +5,15 @@ import (
 )
 
 /*
-Rotate Matrix
+# Rotate Matrix
 
 Given an n×n matrix, rotate the matrix 90 degrees clockwise.
 The performed rotation should be in place, i.e., the given matrix
 is modified directly without allocating another matrix.
 
-	a) len(matrix) == len(mtx[i])
-	b) 1 ≤ len(matrix) ≤ 20
-	c) -2**31 ≤ mtx[i][j] ≤ 2**31 - 1
+ 1. len(matrix) == len(mtx[i])
+ 2. 1 ≤ len(matrix) ≤ 20
+ 3. -2**31 ≤ mtx[i][j] ≤ 2**31 - 1
 */
 var Problem27 = map[string]func(mtx datastructure.Matrix[int]){
 	"loops": func(mtx datastructure.Matrix[int]) {
