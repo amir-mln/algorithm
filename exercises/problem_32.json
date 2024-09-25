@@ -1,0 +1,37 @@
+[
+    {
+        "name": "test case 1",
+        "input": "sfbaisdugfiubasdjFSDIBJS",
+        "output": 17
+    },
+    {
+        "name": "test case 2",
+        "input": "dfssdnojfnaosbdf",
+        "output": 11
+    },
+    {
+        "name": "test case 3",
+        "input": "GOODMORNINGTOYOU",
+        "output": 9
+    },
+    {
+        "name": "test case 4",
+        "input": "asfewgfweoifhsdb",
+        "output": 9
+    },
+    {
+        "name": "test case 5",
+        "input": "thisREALLYisaGOODbook",
+        "output": 11
+    },
+    {
+        "name": "test case 6",
+        "input": "abcdefgh",
+        "output": 1
+    },
+    {
+        "name": "test case 9",
+        "input": "aabbcccdddeeefffff",
+        "output": 15
+    }
+]
