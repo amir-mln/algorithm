@@ -1,0 +1,7 @@
+[
+    { "name": "test case 1", "inputs": ["egg", "all"], "output": true },
+    { "name": "test case 2", "inputs": ["foo", "bar"], "output": false },
+    { "name": "test case 3", "inputs": ["paper", "title"], "output": true },
+    { "name": "test case 4", "inputs": ["badc", "baba"], "output": false },
+    { "name": "test case 5", "inputs": ["aaeaa", "uuxyy"], "output": false }
+]
