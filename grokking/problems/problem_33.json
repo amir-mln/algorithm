@@ -1,0 +1,47 @@
+[
+    {
+        "name": "testcase 1",
+        "inputs": [2, 4],
+        "output": "0.5"
+    },
+    {
+        "name": "testcase 2",
+        "inputs": [4, 2],
+        "output": "2"
+    },
+    {
+        "name": "testcase 3",
+        "inputs": [5, 333],
+        "output": "0.(015)"
+    },
+    {
+        "name": "testcase 4",
+        "inputs": [2, 3],
+        "output": "0.(6)"
+    },
+    {
+        "name": "testcase 5",
+        "inputs": [47, 18],
+        "output": "2.6(1)"
+    },
+    {
+        "name": "testcase 6",
+        "inputs": [93, 7],
+        "output": "13.(285714)"
+    },
+    {
+        "name": "testcase 7",
+        "inputs": [-5, 333],
+        "output": "-0.(015)"
+    },
+    {
+        "name": "testcase 8",
+        "inputs": [47, -18],
+        "output": "-2.6(1)"
+    },
+    {
+        "name": "testcase 9",
+        "inputs": [-4, -2],
+        "output": "2"
+    }
+]
