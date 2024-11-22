@@ -6,20 +6,16 @@ import (
 )
 
 /*
-# Longest Palindrome
+# Fraction to Recurring Decimal
 
-Given a string s that only contains alphabets, return the
-length of the longest palindrome that may be composed using
-those letters. Letters are case-sensitive. Hence, combinations
-such as “Aa” are not considered palindromes. Also, it's ok
-to not use every instance of a character in the palindrome.
-For example, if you have three d's, you can only use 2 d's
-in you calculations.
+Given the two integer values of a fraction, [numerator] and [denominator],
+implement a function that returns the fraction in string format. If the
+fractional part repeats, enclose the repeating part in parentheses.
 
 Constraints:
 
- 1. str consist of valid ASCII characters.
- 2. 0 ≤ len(str) ≤ 1000
+ 1. denominator != 0
+ 2. −10**5 ≤ numerator, denominator ≤ 10**5-1
 */
 type Problem33 struct {
 	Numerator   int
