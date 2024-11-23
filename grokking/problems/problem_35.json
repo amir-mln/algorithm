@@ -1,0 +1,42 @@
+[
+    {
+        "name": "testcase 1",
+        "input": "peas",
+        "output": false
+    },
+    {
+        "name": "testcase 2",
+        "input": "abab",
+        "output": true
+    },
+    {
+        "name": "testcase 3",
+        "input": "racecar",
+        "output": true
+    },
+    {
+        "name": "testcase 4",
+        "input": "code",
+        "output": false
+    },
+    {
+        "name": "testcase 5",
+        "input": "baefeab",
+        "output": true
+    },
+    {
+        "name": "testcase 6",
+        "input": "aaaaa",
+        "output": true
+    },
+    {
+        "name": "testcase 7",
+        "input": "bb",
+        "output": true
+    },
+    {
+        "name": "testcase 8",
+        "input": "table",
+        "output": false
+    }
+]
