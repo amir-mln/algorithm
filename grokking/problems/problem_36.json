@@ -1,0 +1,27 @@
+[
+    {
+        "name": "testcase 1",
+        "input": ["anagram", "nagaram"],
+        "output": true
+    },
+    {
+        "name": "testcase 2",
+        "input": ["spare", "pears"],
+        "output": true
+    },
+    {
+        "name": "testcase 3",
+        "input": ["heart", "earth"],
+        "output": true
+    },
+    {
+        "name": "testcase 4",
+        "input": ["super", "upper"],
+        "output": false
+    },
+    {
+        "name": "testcase 5",
+        "input": ["triangle", "integral"],
+        "output": true
+    }
+]
