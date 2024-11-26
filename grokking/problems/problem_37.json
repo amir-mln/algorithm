@@ -1,0 +1,9 @@
+[
+    { "name": "testcase 1", "input": ["abab", "ab"], "output": [0, 1, 2] },
+    { "name": "testcase 2", "input": ["cbaebabacd", "abc"], "output": [0, 6] },
+    { "name": "testcase 3", "input": ["ceffec", "efc"], "output": [0, 3] },
+    { "name": "testcase 4", "input": ["hello", "olleh"], "output": [0] },
+    { "name": "testcase 5", "input": ["bro", "bro"], "output": [0] },
+    { "name": "testcase 6", "input": ["ababab", "ab"], "output": [0, 1, 2, 3, 4] },
+    { "name": "testcase 7", "input": ["cbaebabacd", "ab"], "output": [1, 4, 5, 6] }
+]
