@@ -1,0 +1,27 @@
+[
+    {
+        "name": "testcase 1",
+        "input": ["eat", "tea", "tan", "ate", "nat", "bat"],
+        "output": [["eat", "tea", "ate"], ["bat"], ["tan", "nat"]]
+    },
+    {
+        "name": "testcase 2",
+        "input": ["word", "sword", "drow", "rowd", "iced", "dice"],
+        "output": [["word", "drow", "rowd"], ["sword"], ["iced", "dice"]]
+    },
+    {
+        "name": "testcase 3",
+        "input": ["eat", "drink", "sleep", "repeat"],
+        "output": [["eat"], ["drink"], ["sleep"], ["repeat"]]
+    },
+    {
+        "name": "testcase 4",
+        "input": ["hello", "ohlle", "dark"],
+        "output": [["hello", "ohlle"], ["dark"]]
+    },
+    {
+        "name": "testcase 5",
+        "input": ["eat", "beat", "neat", "tea"],
+        "output": [["eat", "tea"], ["beat"], ["neat"]]
+    }
+]
