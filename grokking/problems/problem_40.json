@@ -1,0 +1,64 @@
+[
+    {
+        "name": "testcase 1",
+        "input": {
+            "dna": "AAAAACCCCCAAAAACCCCCC",
+            "k": 8
+        },
+        "output": ["AAACCCCC", "AAAAACCC", "AAAACCCC"]
+    },
+
+    {
+        "name": "testcase 2",
+        "input": {
+            "dna": "GGGGGGGGGGGGGGGGGGGGGGGGG",
+            "k": 9
+        },
+        "output": ["GGGGGGGGG"]
+    },
+
+    {
+        "name": "testcase 3",
+        "input": {
+            "dna": "TTTTTCCCCCCCTTTTTTCCCCCCCTTTTTTT",
+            "k": 10
+        },
+        "output": [
+            "CCCCTTTTTT",
+            "TTTCCCCCCC",
+            "TTCCCCCCCT",
+            "CCCCCTTTTT",
+            "CCCCCCTTTT",
+            "TTTTCCCCCC",
+            "TCCCCCCCTT",
+            "CCCCCCCTTT",
+            "TTTTTCCCCC"
+        ]
+    },
+
+    {
+        "name": "testcase 4",
+        "input": {
+            "dna": "AAAAAACCCCCCCAAAAAAAACCCCCCCTG",
+            "k": 10
+        },
+        "output": ["AAAAAACCCC", "AAAAACCCCC", "AAACCCCCCC", "AAAACCCCCC"]
+    },
+
+    {
+        "name": "testcase 5",
+        "input": {
+            "dna": "ATATATATATATATAT",
+            "k": 6
+        },
+        "output": ["ATATAT", "TATATA"]
+    },
+    {
+        "name": "testcase 6",
+        "input": {
+            "dna": "TTTTTGGGTTTTCCA",
+            "k": 10
+        },
+        "output": []
+    }
+]
