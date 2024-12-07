@@ -15,8 +15,11 @@ func (s *Stack[T]) Push(v T) {
 	s.size++
 }
 
-// pops the value from the top of the stack and returns it. if the
-// stack is empty it returns the default value and false
+/*
+Removes the top most element of the stack and returns it.
+returns default value of T and false when the
+stack is empty.
+*/
 func (s *Stack[T]) Pop() (T, bool) {
 	if s.Empty() {
 		var def T
@@ -30,7 +33,29 @@ func (s *Stack[T]) Pop() (T, bool) {
 	return v, true
 }
 
-// The top value of the stack i.e. the value of the last
+/*
+Removes the bottom most element of the stack and returns it.
+returns default value of T and false when the
+stack is empty.
+*/
+func (s *Stack[T]) PopBottom() (T, bool) {
+	if s.Empty() {
+		var def T
+		return def, false
+	}
+
+	v := s.slice[0]
+	s.slice = s.slice[1:]
+	s.size--
+
+	return v, true
+}
+
+/*
+The top most element of the stack.
+returns default value of T and false when the
+stack is empty.
+*/
 func (s *Stack[T]) Top() (T, bool) {
 	if s.Empty() {
 		var def T
@@ -38,6 +63,20 @@ func (s *Stack[T]) Top() (T, bool) {
 	}
 
 	return s.slice[s.size-1], true
+}
+
+/*
+The bottom most element of the stack.
+returns default value of T and false when the
+stack is empty.
+*/
+func (s *Stack[T]) Bottom() (T, bool) {
+	if s.Empty() {
+		var def T
+		return def, false
+	}
+
+	return s.slice[0], true
 }
 
 // Returns true if the stack is empty
