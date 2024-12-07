@@ -1,0 +1,13 @@
+[
+    { "name": "testcase 1", "input": "abcdbea", "output": 5 },
+    { "name": "testcase 2", "input": "aba", "output": 2 },
+    { "name": "testcase 3", "input": "abccabcabcc", "output": 3 },
+    { "name": "testcase 4", "input": "aaaabaaa", "output": 2 },
+    { "name": "testcase 5", "input": "bbbbb", "output": 1 },
+    { "name": "testcase 6", "input": "pwwkew", "output": 3 },
+    { "name": "testcase 7", "input": "ABCDEFGHI", "output": 9 },
+    { "name": "testcase 8", "input": "ABCDEDCBA", "output": 5 },
+    { "name": "testcase 9", "input": "AAAABBBBCCCCDDDD", "output": 2 },
+    { "name": "testcase 10", "input": "ABCDEECCBA", "output": 5 },
+    { "name": "testcase 11", "input": "abcedfeabcj", "output": 7 }
+]
