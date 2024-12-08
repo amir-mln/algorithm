@@ -1,0 +1,7 @@
+[
+    { "name": "testcase 1", "input": { "s": "aaacbbbaabab", "c": 2 }, "output": 6 },
+    { "name": "testcase 2", "input": { "s": "aaacbbbaabab", "c": 1 }, "output": 4 },
+    { "name": "testcase 3", "input": { "s": "dippitydip", "c": 4 }, "output": 6 },
+    { "name": "testcase 4", "input": { "s": "coollooc", "c": 2 }, "output": 6 },
+    { "name": "testcase 5", "input": { "s": "aaaaaaaaaa", "c": 2 }, "output": 10 }
+]
