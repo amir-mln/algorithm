@@ -1,0 +1,8 @@
+[
+    { "name": "testcase 1", "input": ["ABCD", "ABC"], "output": "ABC" },
+    { "name": "testcase 2", "input": ["XYZYX", "XYZ"], "output": "XYZ" },
+    { "name": "testcase 3", "input": ["ABXYZJKLSNFC", "ABC"], "output": "ABXYZJKLSNFC" },
+    { "name": "testcase 4", "input": ["AAAAAAAAAAA", "A"], "output": "A" },
+    { "name": "testcase 5", "input": ["ABDFGDCKAB", "ABCD"], "output": "DCKAB" },
+    { "name": "testcase 6", "input": ["XYZA", "AZYX"], "output": "XYZA" }
+]
